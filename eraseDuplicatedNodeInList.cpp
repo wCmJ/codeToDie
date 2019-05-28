@@ -29,8 +29,8 @@ ListNode* deleteDuplicates(ListNode *head)
         {
             *p = node;
             p = &(node->next);
-            *p = NULL;
         }
     }
+    *p = NULL;
     return head;
 }
