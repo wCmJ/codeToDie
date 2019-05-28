@@ -13,3 +13,23 @@ git reset HEAD file1:  cancel/drop modify in stage
 
 ssh-keygen -t rsa -C "emailaddress"
 
+first we have local repo, then contact with remote repo.
+git remote add origin https://github.com/wCmJ/MyGit.git   contact local repo and remote repo
+git push -u origin master   push current master to remote, -u contact local master and remote master
+git push origin master
+
+
+clone repo from remote
+git clone https://github.com/wCmJ/MyGit.git
+git push origin master
+
+git branch newBranch
+git checkout newBranch
+git checkout -b newBranch
+git checkout master
+git merge newBranch // merge newBranch to current branch
+git branch
+git branch -d newBranch(can be more)
+
+
+
