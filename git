@@ -1,0 +1,15 @@
+git init: init dir to repository
+git add file1
+git commit -m "message"
+git status
+git log: display all commit history
+git log --pretty=oneline
+git reset --hard HEAD^
+git reset --hard HEAD~100
+git reset --hard commitID
+git reflog: display all commands history
+git checkout -- file1: return latest commit/add status
+git reset HEAD file1:  cancel/drop modify in stage
+
+ssh-keygen -t rsa -C "emailaddress"
+
