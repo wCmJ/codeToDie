@@ -30,6 +30,10 @@ git checkout master
 git merge newBranch // merge newBranch to current branch
 git branch
 git branch -d newBranch(can be more)
+git log --graph --pretty=oneline
+git merge --no-ff -m "merge with no-ff" dev
+
+
 
 
 
