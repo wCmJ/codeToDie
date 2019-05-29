@@ -33,6 +33,17 @@ git branch -d newBranch(can be more)
 git log --graph --pretty=oneline
 git merge --no-ff -m "merge with no-ff" dev
 
+from local to remote:
+git branch --set-upstream-to=origin/dev dev
+from remote to local:
+git checkout -b dev origin/dev
+git pull
+  
+git checkout -b dev origin/dev: 创建远程分支到本地
+git push origin dev
+git pull: if failed, git branch --set-upstream-to=origin/dev dev
+
+
 
 
 
